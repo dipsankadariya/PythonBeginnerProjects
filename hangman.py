@@ -5,7 +5,7 @@ def choose_word():
              'elephant', 'tiger', 'giraffe', 'lion', 'zebra', 'cheetah',
              'python', 'java', 'javascript', 'ruby', 'php', 'html', 'css',
              'football', 'basketball', 'soccer', 'tennis', 'volleyball', 'cricket',
-             'mountain', 'ocean', 'forest', 'desert', 'river']
+             'mountain', 'ocean', 'forest', 'desert', 'river','youtube']
     return random.choice(words)
 
 def display_word(word, guessed_letters):
